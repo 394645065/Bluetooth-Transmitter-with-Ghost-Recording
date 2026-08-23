@@ -1,6 +1,8 @@
 # Bluetooth-Transmitter-with-Ghost-Recording
 A USB-C Bluetooth audio transmitter that lets you keep using your own headphones while silently capturing both sides of any meeting.
 
+![Bluetooth transmitter project](picture.jpg)
+
 Plug the dongle into your computer or phone during Zoom/Teams (or any VoIP) calls. It appears as a normal Bluetooth transmitter:
 
 - Remote / system audio is played cleanly into your personal earbuds
