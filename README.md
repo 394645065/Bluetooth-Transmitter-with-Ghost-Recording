@@ -17,7 +17,11 @@ Plug the dongle into your computer or phone during Zoom/Teams (or any VoIP) call
 Open-source hardware & firmware focused on private, local meeting recording without changing how you already work.
 
 PIO configuration
+
 #define W25N01G_PIO_SPI_CS          PIO1
+
 #define W25N01G_PIO_SPI_MISO        PIO2
+
 #define W25N01G_PIO_SPI_MOSI        PIO3
+
 #define W25N01G_PIO_SPI_CLK         PIO4
