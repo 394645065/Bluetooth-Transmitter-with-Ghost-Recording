@@ -18,6 +18,20 @@ Plug the dongle into your computer or phone during Zoom/Teams (or any VoIP) call
 
 Open-source hardware & firmware focused on private, local meeting recording without changing how you already work.
 
+## PC software
+
+The `PC software` folder contains Python tools for managing recordings stored on the device. The tools can extract recorded meetings from the device, decode the recorded Opus audio, and read live meeting audio from the device for real-time transcription, translation, and meeting summaries.
+
+- `test_recorder.py` provides the main desktop interface for communicating with the recorder, managing stored recordings, downloading recording files, and receiving live audio streams.
+- `opus_decoder.py` decodes the device's Opus recording data to WAV audio.
+- `funasr_client.py` sends live audio to FunASR for real-time speech recognition and translation.
+- `live_meeting_summarizer.py` processes live transcripts and generates meeting summaries.
+- `dashscope_llm.py` provides the DashScope language-model integration used for meeting summaries.
+
+## Prebuilt firmware
+
+`flash_image.xuv` is a prebuilt firmware image that can be flashed to the device. The firmware source is not included because it depends on files from the Qualcomm ADK, which are not redistributed here to avoid potential licensing and copyright issues. To request access to the source code, email `394645065@qq.com`.
+
 PIO configuration
 
 #define W25N01G_PIO_SPI_CS          PIO1
